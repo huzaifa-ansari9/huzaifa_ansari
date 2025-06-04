@@ -4,7 +4,7 @@ import myImage from "./assets/huzaifa.jpg";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import MyCerts from "./Components/MyCerts/MyCerts";
-
+import Lifeline from "./Components/Lifeline/Lifeline";
 
 const App = () => {
   gsap.registerPlugin(useGSAP);
@@ -162,6 +162,7 @@ const App = () => {
           </div>
         </div>
         <MyCerts />
+        <Lifeline />
       </main>
     </>
   );

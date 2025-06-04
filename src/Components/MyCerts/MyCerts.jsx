@@ -12,7 +12,7 @@ const MyCerts = () => {
     <>
       <div className="dividor w-full h-[1px] mt-16"></div>
 
-      <div className="myCerts w-full h-screen px-[100px]">
+      <div className="myCerts w-full py-[50px] px-[100px]">
         <div className="mt-[10px]">
           <p className="text-[15px] text-[#ffa500]">
             const renderCertificates = {"{"}
