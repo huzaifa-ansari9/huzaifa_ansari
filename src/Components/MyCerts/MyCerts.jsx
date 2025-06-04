@@ -11,7 +11,7 @@ const MyCerts = () => {
   return (
     <>
       <div className="dividor w-full h-[1px] mt-16"></div>
-      <div className="myCerts w-full mt-[20px] px-[100px]">
+      <div className="myCerts px-[20px] w-full mt-[20px] lg:px-[100px]">
         <div className="mt-[10px]">
           <p className="text-[15px] text-[#ffa500]">
             const renderCertificates = {"{"}

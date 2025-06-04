@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
       <div className="dividor w-full h-[1px] mt-16"></div>
-      <div className="contactus mt-[20px] w-full pb-[30px] px-[100px] relative">
+      <div className="contactus px-[20px] mt-[20px] w-full pb-[30px] lg:px-[100px] relative">
         <div className="my-[10px]">
           <p className="text-[15px] text-[#ffa500] ">
             {"<button>Follow Me</button>"}
@@ -21,10 +21,10 @@ const Contact = () => {
         <div className="mt-[50px] flex flex-wrap justify-between items-center">
           <div className="">
             <div className="">
-              <p className="text-xl">
+              <p className="text-lg">
                 Phone: <span className="text-[#ffa500]">+91 9825032183</span>
               </p>
-              <p className="text-xl">
+              <p className="text-lg">
                 Email:{" "}
                 <span className="text-[#ffa500] underline">
                   ansarihuzaifa8485@gmail.com
@@ -46,8 +46,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-end">
-            <p className="text-[150px] font-black">Thankyou</p>
+          <div className="flex flex-col items-end mt-[30px]">
+            <p className="text-[60px] lg:text-[150px] font-black">Thankyou</p>
             <p className="text-[#777777]">~ Huzaifa Ansari</p>
           </div>
         </div>

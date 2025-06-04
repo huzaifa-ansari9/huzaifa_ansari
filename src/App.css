@@ -10,9 +10,9 @@
 }
 
 .myName {
-    font-size: 150px;
+    /* font-size: 150px;
     line-height: 120px;
-    font-weight: 900;
+    font-weight: 900; */
     background: linear-gradient(to right, rgb(255, 191, 0), rgb(255, 89, 0)) no-repeat center;
     background-size: cover;
     background-clip: text;

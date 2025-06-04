@@ -16,8 +16,8 @@ const App = () => {
     let tl = gsap.timeline();
     tl.from(".myName, .myName > *", {
       opacity: 0,
-      fontSize: 110,
-      duration: 1.5,
+      // fontSize: 110,
+      duration: 2,
       delay: 0.5,
     });
     tl.from(".myImage", {
@@ -51,10 +51,10 @@ const App = () => {
         onMouseMove={mouseHandler}
       >
         <div className="w-[1px] z-100 customPointer h-[1px] absolute top-[0] left-0  rounded-full"></div>
-        <div className="subDiv w-full h-full px-[100px] text-white gap-[50px] flex justify-around items-center">
-          <div className=" w-[1190px] h-[258px]">
-            <p className="myName">HUZAIFA </p>
-            <p className="myName">ANSARI</p>
+        <div className="subDiv px-[20px] w-full py-[100px] lg:px-[100px] text-white flex flex-wrap justify-around items-center">
+          <div className="">
+            <p className="myName text-[50px] leading-[50px] lg:text-[150px] font-black lg:leading-[120px] ">HUZAIFA </p>
+            <p className="myName text-[50px] leading-[50px] lg:text-[150px] font-black lg:leading-[120px] ">ANSARI</p>
             <p className="text-[18px] knowmore">
               <a href="#knowmore" className="">
                 Knowmore
@@ -63,12 +63,12 @@ const App = () => {
             </p>
           </div>
           <div className="myImage bg-[#323232] overflow-hidden rounded-2xl opacity-100">
-            <img className="w-[800px]" src={myImage} alt="HUZAIFA ANSARI" />
+            <img className="" width={400} src={myImage} alt="HUZAIFA ANSARI" />
           </div>
         </div>
 
         <div
-          className="about w-full px-[100px] text-white flex flex-col gap-[30px]"
+          className="about w-full px-[20px] lg:px-[100px] text-white flex flex-col gap-[30px]"
           id="knowmore"
         >
           <div className="">
