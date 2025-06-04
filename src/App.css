@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     font-family: "Orbitron", sans-serif;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
 }
 
 .myName {
@@ -12,5 +17,27 @@
     background-size: cover;
     background-clip: text;
     color: transparent;
+}
 
+.customPointer {
+    background: transparent;
+    box-shadow: 0px 0px 100px 50px #ffa500;
+    filter: blur();
+}
+
+.knowmore,
+.knowmore * {
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 1px;
+    margin: 20px 0px;
+    color: #686868;
+}
+
+.knowmore a {
+    text-decoration: underline;
+
+}
+
+.about * {
+    font-family: "Montserrat", sans-serif;
 }
