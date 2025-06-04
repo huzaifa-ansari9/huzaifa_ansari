@@ -3,6 +3,8 @@ import "./App.css";
 import myImage from "./assets/huzaifa.jpg";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import MyCerts from "./Components/MyCerts/MyCerts";
+
 
 const App = () => {
   gsap.registerPlugin(useGSAP);
@@ -44,7 +46,7 @@ const App = () => {
   return (
     <>
       <main
-        className="main relative w-full h-screen bg-black select-none overflow-y-scroll overflow-x-hidden"
+        className="main relative w-full h-screen text-white bg-black select-none overflow-y-scroll overflow-x-hidden"
         onMouseMove={mouseHandler}
       >
         <div className="w-[1px] z-100 customPointer h-[1px] absolute top-[0] left-0  rounded-full"></div>
@@ -159,6 +161,7 @@ const App = () => {
             </p>
           </div>
         </div>
+        <MyCerts />
       </main>
     </>
   );

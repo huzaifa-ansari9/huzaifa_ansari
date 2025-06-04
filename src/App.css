@@ -41,3 +41,12 @@
 .about * {
     font-family: "Montserrat", sans-serif;
 }
+
+.myCerts * {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.dividor {
+    background: radial-gradient(circle, #ffa500 0%, #ffa500 30%, #7e5200 70%, transparent 100%);
+}
