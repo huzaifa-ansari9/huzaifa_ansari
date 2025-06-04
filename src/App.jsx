@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import MyCerts from "./Components/MyCerts/MyCerts";
 import Lifeline from "./Components/Lifeline/Lifeline";
+import Contact from "./Components/Contact/Contact";
 
 const App = () => {
   gsap.registerPlugin(useGSAP);
@@ -163,6 +164,7 @@ const App = () => {
         </div>
         <MyCerts />
         <Lifeline />
+        <Contact />
       </main>
     </>
   );

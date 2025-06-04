@@ -1,3 +1,14 @@
 .lifeline * {
     font-family: "Montserrat", sans-serif;
 }
+
+.style1 {
+
+    border-radius: 50%;
+    position: absolute;
+    right: 300px;
+    top: 200px;
+    font-size: 100px;
+    font-weight: 900;
+    box-shadow: 0px 0px 200px 80px #ffa500;
+}
